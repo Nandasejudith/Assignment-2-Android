@@ -38,6 +38,7 @@
         android:text="Mobile Wallet"
         android:textColor="#F40404"
         android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +50,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:text="Choose the transaction type you want"
-        android:textSize="30sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMobileWallet" />
