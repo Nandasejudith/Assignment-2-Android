@@ -7,26 +7,26 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btntext"
+        android:id="@+id/btnCredit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="108dp"
         android:text="Credit"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/etOptions" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
         android:layout_marginEnd="24dp"
-        android:text="Button"
+        android:text="Cash"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.437"
-        app:layout_constraintStart_toEndOf="@+id/btntext"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/btnCredit"
+        app:layout_constraintTop_toBottomOf="@+id/etOptions" />
 
     <TextView
         android:id="@+id/tvMobileWallet"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/etOptions"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
